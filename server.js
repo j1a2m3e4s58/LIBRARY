@@ -7,13 +7,17 @@ const db = require('./db');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const JWT_SECRET = 'super_secret_library_key';
+const JWT_SECRET = process.env.JWT_SECRET || 'development_only_library_secret';
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', service: 'the-knowledge-hub' });
+});
 
 // Date helper functions
 function getLocalDateString(date = new Date()) {
