@@ -1,0 +1,283 @@
+{"kind":"deck","id":"pr/78nm2h","name":"Deck"}
+{"kind":"layout","layoutId":"2aa042dd-65fa-40eb-b4ed-47fb9a7dcf85","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"af7e16b9-5435-4135-b270-b51668a76642","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/4qg4p9","slide":1,"title":"AUTOMATED LIBRARY MANAGEMENT SYSTEM","textShapes":4}
+{"kind":"shape","id":"sh/wnidgz65","slide":1,"bbox":[0,0,680,720]}
+{"kind":"shape","id":"sh/xore9k7q","slide":1,"bbox":[640,0,80,720]}
+{"kind":"textbox","id":"sh/ip0vipob","slide":1,"text":"AUTOMATED LIBRARY MANAGEMENT SYSTEM","textPreview":"AUTOMATED LIBRARY MANAGEMENT SYSTEM","textChars":35,"textLines":1,"bbox":[56,54,540,38]}
+{"kind":"textbox","id":"sh/ja9wbupw","slide":1,"text":"The Knowledge\nHub","textPreview":"The Knowledge | Hub","textChars":17,"textLines":2,"bbox":[56,176,570,190]}
+{"kind":"textbox","id":"sh/kbidkz6h","slide":1,"text":"A secure, role-based and responsive platform for managing books, readers and circulation.","textPreview":"A secure, role-based and responsive platform for managing books, readers and circulation.","textChars":89,"textLines":1,"bbox":[60,404,510,106]}
+{"kind":"textbox","id":"sh/5cbed4n2","slide":1,"text":"Project Presentation  •  2026","textPreview":"Project Presentation  •  2026","textChars":29,"textLines":1,"bbox":[60,615,420,34]}
+{"kind":"image","id":"im/ytk3qhgf","slide":1,"name":"","alt":"ghana-library-login-v2.png","bbox":[660,0,620,720]}
+{"kind":"notes","id":"nt/4qg4p9","slide":1,"text":""}
+{"kind":"slide","id":"sl/rpo63q","slide":2,"title":"THE KNOWLEDGE HUB","textShapes":13}
+{"kind":"shape","id":"sh/ve14fitk","slide":2,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/wfal8na5","slide":2,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/xgjmhsba","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/m9832dsn","slide":2,"text":"The project solves everyday library delays","textPreview":"The project solves everyday library delays","textChars":42,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"textbox","id":"sh/nahkbit8","slide":2,"text":"One shared system replaces scattered manual records.","textPreview":"One shared system replaces scattered manual records.","textChars":52,"textLines":1,"bbox":[50,128,1120,38]}
+{"kind":"shape","id":"sh/8bql43at","slide":2,"bbox":[48,250,370,300]}
+{"kind":"textbox","id":"sh/9cz2d8be","slide":2,"text":"Find resources faster","textPreview":"Find resources faster","textChars":21,"textLines":1,"bbox":[72,274,320,58]}
+{"kind":"textbox","id":"sh/ylo3ytsr","slide":2,"text":"Students can search titles, view availability and reserve a copy before visiting.","textPreview":"Students can search titles, view availability and reserve a copy before visiting.","textChars":81,"textLines":1,"bbox":[72,341,320,160]}
+{"kind":"textbox","id":"sh/zmhk7ytc","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[333,495,55,30]}
+{"kind":"shape","id":"sh/7qlk72lc","slide":2,"bbox":[450,250,370,300]}
+{"kind":"textbox","id":"sh/6pcjexkr","slide":2,"text":"Control circulation","textPreview":"Control circulation","textChars":19,"textLines":1,"bbox":[474,274,320,58]}
+{"kind":"textbox","id":"sh/ts329c3i","slide":2,"text":"Librarians issue, return and renew books while the system updates copy counts.","textPreview":"Librarians issue, return and renew books while the system updates copy counts.","textChars":78,"textLines":1,"bbox":[474,341,320,160]}
+{"kind":"textbox","id":"sh/sru1g72x","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[735,495,55,30]}
+{"kind":"shape","id":"sh/fu5kb2l8","slide":2,"bbox":[852,250,370,300]}
+{"kind":"textbox","id":"sh/utc3ihkn","slide":2,"text":"Reduce avoidable penalties","textPreview":"Reduce avoidable penalties","textChars":26,"textLines":1,"bbox":[876,274,320,58]}
+{"kind":"textbox","id":"sh/hgn2dc3e","slide":2,"text":"Return countdowns, overdue status and fine records make deadlines visible.","textPreview":"Return countdowns, overdue status and fine records make deadlines visible.","textChars":74,"textLines":1,"bbox":[876,341,320,160]}
+{"kind":"textbox","id":"sh/gvelk72t","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1137,495,55,30]}
+{"kind":"notes","id":"nt/rpo63q","slide":2,"text":""}
+{"kind":"slide","id":"sl/47ucns","slide":3,"title":"THE KNOWLEDGE HUB","textShapes":15}
+{"kind":"shape","id":"sh/crulsjyt","slide":3,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/bqlkzeh8","slide":3,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/qps3q9gn","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/lw325ofa","slide":3,"text":"A lightweight web stack fits the problem","textPreview":"A lightweight web stack fits the problem","textChars":40,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"textbox","id":"sh/0vulw3yp","slide":3,"text":"The technologies are familiar, fast to develop and practical for a campus demonstration.","textPreview":"The technologies are familiar, fast to develop and practical for a campus demonstration.","textChars":88,"textLines":1,"bbox":[50,128,1120,38]}
+{"kind":"shape","id":"sh/zulk3yx4","slide":3,"bbox":[48,220,370,300]}
+{"kind":"textbox","id":"sh/ytc3utgz","slide":3,"text":"Browser layer","textPreview":"Browser layer","textChars":13,"textLines":1,"bbox":[72,244,320,58]}
+{"kind":"textbox","id":"sh/9kn298fm","slide":3,"text":"HTML structures each page, CSS creates the responsive Ghana-inspired design, and JavaScript handles interaction.","textPreview":"HTML structures each page, CSS creates the responsive Ghana-inspired design, and JavaScript handles interaction.","textChars":112,"textLines":1,"bbox":[72,311,320,160]}
+{"kind":"textbox","id":"sh/8zel03y1","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[333,465,55,30]}
+{"kind":"shape","id":"sh/udkni1wj","slide":3,"bbox":[450,220,370,300]}
+{"kind":"textbox","id":"sh/vetor6d4","slide":3,"text":"Application server","textPreview":"Application server","textChars":18,"textLines":1,"bbox":[474,244,320,58]}
+{"kind":"textbox","id":"sh/gf2pkbep","slide":3,"text":"Node.js and Express expose REST APIs and use one language—JavaScript—across client and server.","textPreview":"Node.js and Express expose REST APIs and use one language—JavaScript—across client and server.","textChars":94,"textLines":1,"bbox":[474,311,320,160]}
+{"kind":"textbox","id":"sh/hgb6tgva","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[735,465,55,30]}
+{"kind":"shape","id":"sh/ihk7m1wf","slide":3,"bbox":[852,220,370,300]}
+{"kind":"textbox","id":"sh/3itov6d0","slide":3,"text":"Data and security","textPreview":"Data and security","textChars":17,"textLines":1,"bbox":[876,244,320,58]}
+{"kind":"textbox","id":"sh/4j2pobel","slide":3,"text":"SQLite stores the records; bcrypt hashes passwords; JSON Web Tokens protect authenticated requests.","textPreview":"SQLite stores the records; bcrypt hashes passwords; JSON Web Tokens protect authenticated requests.","textChars":99,"textLines":1,"bbox":[876,311,320,160]}
+{"kind":"textbox","id":"sh/54v6xgv6","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1137,465,55,30]}
+{"kind":"textbox","id":"sh/yl0nahwb","slide":3,"text":"Why this choice?","textPreview":"Why this choice?","textChars":16,"textLines":1,"bbox":[50,566,210,32]}
+{"kind":"textbox","id":"sh/jm9ojmdw","slide":3,"text":"Low setup cost • easy local deployment • rapid development • enough structure to grow into a hosted system","textPreview":"Low setup cost • easy local deployment • rapid development • enough structure to grow into a hosted system","textChars":106,"textLines":1,"bbox":[260,562,940,40]}
+{"kind":"notes","id":"nt/47ucns","slide":3,"text":""}
+{"kind":"slide","id":"sl/ftes2z","slide":4,"title":"THE KNOWLEDGE HUB","textShapes":12}
+{"kind":"shape","id":"sh/8ze1kvid","slide":4,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/7y50rqhs","slide":4,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/6dwjil0n","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/h47ix0za","slide":4,"text":"Every action follows a clear three-layer architecture","textPreview":"Every action follows a clear three-layer architecture","textChars":53,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/g3y1ofip","slide":4,"bbox":[70,255,330,190]}
+{"kind":"textbox","id":"sh/v2p0vah4","slide":4,"text":"RESPONSIVE INTERFACE","textPreview":"RESPONSIVE INTERFACE","textChars":20,"textLines":1,"bbox":[94,287,282,50]}
+{"kind":"textbox","id":"sh/u1gjm50j","slide":4,"text":"HTML • CSS • JavaScript","textPreview":"HTML • CSS • JavaScript","textChars":23,"textLines":1,"bbox":[94,350,282,54]}
+{"kind":"textbox","id":"sh/x83ilgzq","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[405,307,45,60]}
+{"kind":"shape","id":"sh/c7uhcbi5","slide":4,"bbox":[455,255,330,190]}
+{"kind":"textbox","id":"sh/itknyl03","slide":4,"text":"EXPRESS API","textPreview":"EXPRESS API","textChars":11,"textLines":1,"bbox":[479,287,282,50]}
+{"kind":"textbox","id":"sh/3ut4rq1o","slide":4,"text":"Authentication • rules • validation","textPreview":"Authentication • rules • validation","textChars":35,"textLines":1,"bbox":[479,350,282,54]}
+{"kind":"textbox","id":"sh/4v250vi9","slide":4,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[790,307,45,60]}
+{"kind":"shape","id":"sh/5wbmt0ju","slide":4,"bbox":[840,255,330,190]}
+{"kind":"textbox","id":"sh/qxkn2l0f","slide":4,"text":"SQLITE DATABASE","textPreview":"SQLITE DATABASE","textChars":15,"textLines":1,"bbox":[864,287,282,50]}
+{"kind":"textbox","id":"sh/ryt4vq10","slide":4,"text":"Users • books • loans • fines","textPreview":"Users • books • loans • fines","textChars":29,"textLines":1,"bbox":[864,350,282,54]}
+{"kind":"textbox","id":"sh/sz254vil","slide":4,"text":"The browser sends an authenticated request; the API applies role rules; SQLite returns or updates the record.","textPreview":"The browser sends an authenticated request; the API applies role rules; SQLite returns or updates the record.","textChars":109,"textLines":1,"bbox":[130,525,1020,72]}
+{"kind":"notes","id":"nt/ftes2z","slide":4,"text":""}
+{"kind":"slide","id":"sl/ecgltd","slide":5,"title":"THE KNOWLEDGE HUB","textShapes":8}
+{"kind":"shape","id":"sh/3elobyls","slide":5,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/4fupkj2d","slide":5,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/5g36dojy","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/q1w7mtkj","slide":5,"text":"Login is the secure entry point","textPreview":"Login is the secure entry point","textChars":31,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"textbox","id":"sh/r25ofy14","slide":5,"text":"One form accepts either a username or an institutional email address.","textPreview":"One form accepts either a username or an institutional email address.","textChars":69,"textLines":1,"bbox":[50,128,1120,38]}
+{"kind":"shape","id":"sh/d4n6h8ju","slide":5,"bbox":[55,225,12,12]}
+{"kind":"textbox","id":"sh/65sna9kf","slide":5,"text":"Passwords are checked against bcrypt hashes.","textPreview":"Passwords are checked against bcrypt hashes.","textChars":44,"textLines":1,"bbox":[83,215,522,46]}
+{"kind":"shape","id":"sh/761o3elk","slide":5,"bbox":[55,283,12,12]}
+{"kind":"textbox","id":"sh/3md4fyds","slide":5,"text":"Successful login returns a signed JWT session.","textPreview":"Successful login returns a signed JWT session.","textChars":46,"textLines":1,"bbox":[83,273,522,46]}
+{"kind":"shape","id":"sh/2l436tc7","slide":5,"bbox":[55,341,12,12]}
+{"kind":"textbox","id":"sh/p8fmhovy","slide":5,"text":"The interface changes for student, librarian or admin roles.","textPreview":"The interface changes for student, librarian or admin roles.","textChars":60,"textLines":1,"bbox":[83,331,522,46]}
+{"kind":"shape","id":"sh/47ml8jud","slide":5,"bbox":[55,399,12,12]}
+{"kind":"textbox","id":"sh/fid4bedw","slide":5,"text":"Forgot password starts a verified phone-number flow.","textPreview":"Forgot password starts a verified phone-number flow.","textChars":52,"textLines":1,"bbox":[83,389,522,46]}
+{"kind":"image","id":"im/t0vmhg3y","slide":5,"name":"","alt":"login.png","bbox":[650,175,580,465]}
+{"kind":"notes","id":"nt/ecgltd","slide":5,"text":""}
+{"kind":"slide","id":"sl/lbqozb","slide":6,"title":"THE KNOWLEDGE HUB","textShapes":20}
+{"kind":"shape","id":"sh/ofi907ep","slide":6,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/3e9sr2d4","slide":6,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/2d0ryhwj","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/dkbaxwv6","slide":6,"text":"Phone verification adds a second proof of identity","textPreview":"Phone verification adds a second proof of identity","textChars":50,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"textbox","id":"sh/cj2t4rel","slide":6,"text":"The prototype demonstrates the complete flow before connecting a real SMS provider.","textPreview":"The prototype demonstrates the complete flow before connecting a real SMS provider.","textChars":83,"textLines":1,"bbox":[50,128,1120,38]}
+{"kind":"shape","id":"sh/bitsvmdg","slide":6,"bbox":[48,225,270,300]}
+{"kind":"textbox","id":"sh/qhkb2hwv","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[70,244,45,45]}
+{"kind":"textbox","id":"sh/loba1wvi","slide":6,"text":"Register","textPreview":"Register","textChars":8,"textLines":1,"bbox":[70,304,220,45]}
+{"kind":"textbox","id":"sh/0n2t8rex","slide":6,"text":"Student supplies username, school email and password.","textPreview":"Student supplies username, school email and password.","textChars":53,"textLines":1,"bbox":[70,365,220,112]}
+{"kind":"textbox","id":"sh/ed83adc7","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[318,340,32,50]}
+{"kind":"shape","id":"sh/feh43itc","slide":6,"bbox":[350,225,270,300]}
+{"kind":"textbox","id":"sh/0fqlcnux","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[372,244,45,45]}
+{"kind":"textbox","id":"sh/1gzm5sbi","slide":6,"text":"Add phone","textPreview":"Add phone","textChars":9,"textLines":1,"bbox":[372,304,220,45]}
+{"kind":"textbox","id":"sh/2h83exc3","slide":6,"text":"The system links a Ghana telephone number to the account.","textPreview":"The system links a Ghana telephone number to the account.","textChars":57,"textLines":1,"bbox":[372,365,220,112]}
+{"kind":"textbox","id":"sh/ni1472to","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[620,340,32,50]}
+{"kind":"shape","id":"sh/o3alg7u9","slide":6,"bbox":[652,225,270,300]}
+{"kind":"textbox","id":"sh/p4jm9cbu","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[674,244,45,45]}
+{"kind":"textbox","id":"sh/ilo32tcz","slide":6,"text":"Enter token","textPreview":"Enter token","textChars":11,"textLines":1,"bbox":[674,304,220,45]}
+{"kind":"textbox","id":"sh/3mxkvydk","slide":6,"text":"Demo code 1234 confirms the registration or reset request.","textPreview":"Demo code 1234 confirms the registration or reset request.","textChars":58,"textLines":1,"bbox":[674,365,220,112]}
+{"kind":"textbox","id":"sh/7qt03utc","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[922,340,32,50]}
+{"kind":"shape","id":"sh/mpkjupsr","slide":6,"bbox":[954,225,270,300]}
+{"kind":"textbox","id":"sh/9svi54r2","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[976,244,45,45]}
+{"kind":"textbox","id":"sh/8rm1wzah","slide":6,"text":"Continue","textPreview":"Continue","textChars":8,"textLines":1,"bbox":[976,304,220,45]}
+{"kind":"textbox","id":"sh/zmt0zut0","slide":6,"text":"The account becomes verified and the user can sign in.","textPreview":"The account becomes verified and the user can sign in.","textChars":54,"textLines":1,"bbox":[976,365,220,112]}
+{"kind":"textbox","id":"sh/ylkjqpsf","slide":6,"text":"Production upgrade: replace 1234 with a time-limited code sent by an SMS API, then store only a hashed token and expiry time.","textPreview":"Production upgrade: replace 1234 with a time-limited code sent by an SMS API, then store only a hashed token and expiry time.","textChars":125,"textLines":1,"bbox":[90,570,1100,56]}
+{"kind":"notes","id":"nt/lbqozb","slide":6,"text":""}
+{"kind":"slide","id":"sl/8pk530","slide":7,"title":"THE KNOWLEDGE HUB","textShapes":12}
+{"kind":"shape","id":"sh/vih4rmt0","slide":7,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/g3qlkral","slide":7,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/h4zmtwb6","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/i58nm1sr","slide":7,"text":"Role-based access keeps each workspace relevant","textPreview":"Role-based access keeps each workspace relevant","textChars":47,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/3614vm9w","slide":7,"bbox":[48,225,370,300]}
+{"kind":"textbox","id":"sh/47a5orah","slide":7,"text":"Student","textPreview":"Student","textChars":7,"textLines":1,"bbox":[72,249,320,58]}
+{"kind":"textbox","id":"sh/58jmxwr2","slide":7,"text":"Browse the catalogue, check personal loans, see countdowns, reservations and personal fines.","textPreview":"Browse the catalogue, check personal loans, see countdowns, reservations and personal fines.","textChars":92,"textLines":1,"bbox":[72,316,320,160]}
+{"kind":"textbox","id":"sh/y9o3axs7","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[333,470,55,30]}
+{"kind":"shape","id":"sh/zax4j2ts","slide":7,"bbox":[450,225,370,300]}
+{"kind":"textbox","id":"sh/vmdg3ex0","slide":7,"text":"Librarian","textPreview":"Librarian","textChars":9,"textLines":1,"bbox":[474,249,320,58]}
+{"kind":"textbox","id":"sh/u14fatwf","slide":7,"text":"Manage books and readers, issue and return materials, renew loans and record payments.","textPreview":"Manage books and readers, issue and return materials, renew loans and record payments.","textChars":86,"textLines":1,"bbox":[474,316,320,160]}
+{"kind":"textbox","id":"sh/hovy5ofq","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[735,470,55,30]}
+{"kind":"shape","id":"sh/wnmxcjel","slide":7,"bbox":[852,225,370,300]}
+{"kind":"textbox","id":"sh/7ytgzexo","slide":7,"text":"Administrator","textPreview":"Administrator","textChars":13,"textLines":1,"bbox":[876,249,320,58]}
+{"kind":"textbox","id":"sh/mxkf69g3","slide":7,"text":"All librarian functions plus account creation, system rates and administrative settings.","textPreview":"All librarian functions plus account creation, system rates and administrative settings.","textChars":88,"textLines":1,"bbox":[876,316,320,160]}
+{"kind":"textbox","id":"sh/90vy1ofu","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1137,470,55,30]}
+{"kind":"notes","id":"nt/8pk530","slide":7,"text":""}
+{"kind":"slide","id":"sl/rm5heu","slide":8,"title":"THE KNOWLEDGE HUB","textShapes":7}
+{"kind":"shape","id":"sh/wfutob2x","slide":8,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/velcv61s","slide":8,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/adcbm1k7","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/9c3utgjm","slide":8,"text":"The dashboard turns records into immediate decisions","textPreview":"The dashboard turns records into immediate decisions","textChars":52,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/na1cr61g","slide":8,"bbox":[55,230,12,12]}
+{"kind":"textbox","id":"sh/m9sbi1kv","slide":8,"text":"Animated banner creates a strong home experience.","textPreview":"Animated banner creates a strong home experience.","textChars":49,"textLines":1,"bbox":[83,220,412,46]}
+{"kind":"shape","id":"sh/t8nu50jq","slide":8,"bbox":[55,288,12,12]}
+{"kind":"textbox","id":"sh/s7edwv25","slide":8,"text":"Live totals summarize available, issued and overdue books.","textPreview":"Live totals summarize available, issued and overdue books.","textChars":58,"textLines":1,"bbox":[83,278,412,46]}
+{"kind":"shape","id":"sh/ul87ml03","slide":8,"bbox":[55,346,12,12]}
+{"kind":"textbox","id":"sh/vmhov618","slide":8,"text":"Students see only their own overdue and membership status.","textPreview":"Students see only their own overdue and membership status.","textChars":58,"textLines":1,"bbox":[83,336,412,46]}
+{"kind":"shape","id":"sh/wnqpobit","slide":8,"bbox":[55,404,12,12]}
+{"kind":"textbox","id":"sh/hoz6xgje","slide":8,"text":"Shortcuts lead directly to the next useful task.","textPreview":"Shortcuts lead directly to the next useful task.","textChars":48,"textLines":1,"bbox":[83,394,412,46]}
+{"kind":"image","id":"im/5gzu18zy","slide":8,"name":"","alt":"dashboard.png","bbox":[535,180,700,450]}
+{"kind":"notes","id":"nt/rm5heu","slide":8,"text":""}
+{"kind":"slide","id":"sl/dueat9","slide":9,"title":"THE KNOWLEDGE HUB","textShapes":7}
+{"kind":"shape","id":"sh/cze58jyt","slide":9,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/ryl4feh8","slide":9,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/qxcn69gn","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/pw3md4z2","slide":9,"text":"The literature catalogue makes discovery visual","textPreview":"The literature catalogue makes discovery visual","textChars":47,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/3ul4buhw","slide":9,"bbox":[850,230,12,12]}
+{"kind":"textbox","id":"sh/2tcn2pgb","slide":9,"text":"Search by title, author, ISBN or category.","textPreview":"Search by title, author, ISBN or category.","textChars":42,"textLines":1,"bbox":[878,220,317,46]}
+{"kind":"shape","id":"sh/hs3m9kz6","slide":9,"bbox":[850,288,12,12]}
+{"kind":"textbox","id":"sh/gra5gzyl","slide":9,"text":"Book cards show course area and availability.","textPreview":"Book cards show course area and availability.","textChars":45,"textLines":1,"bbox":[878,278,317,46]}
+{"kind":"shape","id":"sh/25grix4z","slide":9,"bbox":[850,346,12,12]}
+{"kind":"textbox","id":"sh/36p8r2lk","slide":9,"text":"Available copies can be requested.","textPreview":"Available copies can be requested.","textChars":34,"textLines":1,"bbox":[878,336,317,46]}
+{"kind":"shape","id":"sh/ory9k7m5","slide":9,"bbox":[850,404,12,12]}
+{"kind":"textbox","id":"sh/ps7qtc3q","slide":9,"text":"Unavailable titles can join a waitlist.","textPreview":"Unavailable titles can join a waitlist.","textChars":39,"textLines":1,"bbox":[878,394,317,46]}
+{"kind":"image","id":"im/90j2dsri","slide":9,"name":"","alt":"catalogue.png","bbox":[48,180,760,460]}
+{"kind":"notes","id":"nt/dueat9","slide":9,"text":""}
+{"kind":"slide","id":"sl/ui25np","slide":10,"title":"THE KNOWLEDGE HUB","textShapes":8}
+{"kind":"shape","id":"sh/5svut0ze","slide":10,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/ip4bilg3","slide":10,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/jqdcrqh8","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/wnmtgbyx","slide":10,"text":"A book opens into a useful decision screen","textPreview":"A book opens into a useful decision screen","textChars":42,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/alkbelgr","slide":10,"bbox":[815,210,12,12]}
+{"kind":"textbox","id":"sh/vmdcn6hc","slide":10,"text":"Book description and publication details","textPreview":"Book description and publication details","textChars":40,"textLines":1,"bbox":[843,200,362,46]}
+{"kind":"shape","id":"sh/gj6dsfy1","slide":10,"bbox":[815,268,12,12]}
+{"kind":"textbox","id":"sh/1kfu1kfm","slide":10,"text":"Physical copy identifiers and shelf locations","textPreview":"Physical copy identifiers and shelf locations","textChars":45,"textLines":1,"bbox":[843,258,362,46]}
+{"kind":"shape","id":"sh/l4vqd43y","slide":10,"bbox":[815,326,12,12]}
+{"kind":"textbox","id":"sh/k3mp4z2d","slide":10,"text":"Available, borrowed and unavailable states","textPreview":"Available, borrowed and unavailable states","textChars":42,"textLines":1,"bbox":[843,316,362,46]}
+{"kind":"shape","id":"sh/j2d8buls","slide":10,"bbox":[815,384,12,12]}
+{"kind":"textbox","id":"sh/y1472p4n","slide":10,"text":"Return countdown for borrowed copies","textPreview":"Return countdown for borrowed copies","textChars":36,"textLines":1,"bbox":[843,374,362,46]}
+{"kind":"shape","id":"sh/xgbq9k32","slide":10,"bbox":[815,442,12,12]}
+{"kind":"textbox","id":"sh/wf2p0fmh","slide":10,"text":"Reservation or waitlist as the next action","textPreview":"Reservation or waitlist as the next action","textChars":42,"textLines":1,"bbox":[843,432,362,46]}
+{"kind":"image","id":"im/kvalcvu1","slide":10,"name":"","alt":"book-modal.png","bbox":[48,175,720,470]}
+{"kind":"notes","id":"nt/ui25np","slide":10,"text":""}
+{"kind":"slide","id":"sl/tg8b9b","slide":11,"title":"THE KNOWLEDGE HUB","textShapes":11}
+{"kind":"shape","id":"sh/adcfupgz","slide":11,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/x03ypkfa","slide":11,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/wzuxwfy5","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/nalgjah8","slide":11,"text":"Circulation keeps inventory accurate automatically","textPreview":"Circulation keeps inventory accurate automatically","textChars":50,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/m9sfq5gn","slide":11,"bbox":[58,190,160,72]}
+{"kind":"textbox","id":"sh/9c3ylkze","slide":11,"text":"ISSUE","textPreview":"ISSUE","textChars":5,"textLines":1,"bbox":[73,202,130,45]}
+{"kind":"textbox","id":"sh/obuxsfyt","slide":11,"text":"Select a reader and an available copy.","textPreview":"Select a reader and an available copy.","textChars":38,"textLines":1,"bbox":[252,190,860,70]}
+{"kind":"shape","id":"sh/z61gfqhc","slide":11,"bbox":[58,295,160,72]}
+{"kind":"textbox","id":"sh/e5sfm5gr","slide":11,"text":"TRACK","textPreview":"TRACK","textChars":5,"textLines":1,"bbox":[73,307,130,45]}
+{"kind":"textbox","id":"sh/07218vil","slide":11,"text":"Store issue date, due date and active status.","textPreview":"Store issue date, due date and active status.","textChars":45,"textLines":1,"bbox":[252,295,860,70]}
+{"kind":"shape","id":"sh/l8b2h0z6","slide":11,"bbox":[58,400,160,72]}
+{"kind":"textbox","id":"sh/yl0j6l0f","slide":11,"text":"RETURN","textPreview":"RETURN","textChars":6,"textLines":1,"bbox":[73,412,130,45]}
+{"kind":"textbox","id":"sh/z690fqh0","slide":11,"text":"Increase availability and calculate lateness.","textPreview":"Increase availability and calculate lateness.","textChars":45,"textLines":1,"bbox":[252,400,860,70]}
+{"kind":"shape","id":"sh/cji14bip","slide":11,"bbox":[58,505,160,72]}
+{"kind":"textbox","id":"sh/dkridgzu","slide":11,"text":"RENEW","textPreview":"RENEW","textChars":5,"textLines":1,"bbox":[73,517,130,45]}
+{"kind":"textbox","id":"sh/qh0j210j","slide":11,"text":"Extend an eligible loan without re-entering it.","textPreview":"Extend an eligible loan without re-entering it.","textChars":47,"textLines":1,"bbox":[252,505,860,70]}
+{"kind":"notes","id":"nt/tg8b9b","slide":11,"text":""}
+{"kind":"slide","id":"sl/nr1suw","slide":12,"title":"THE KNOWLEDGE HUB","textShapes":14}
+{"kind":"shape","id":"sh/6xkrul8v","slide":12,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/t0va50r6","slide":12,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/szm9wvql","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/fmds7q9c","slide":12,"text":"The student workspace focuses on personal responsibility","textPreview":"The student workspace focuses on personal responsibility","textChars":56,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/ul4ry58r","slide":12,"bbox":[48,215,370,300]}
+{"kind":"textbox","id":"sh/1ova90ri","slide":12,"text":"My loans","textPreview":"My loans","textChars":8,"textLines":1,"bbox":[72,239,320,58]}
+{"kind":"textbox","id":"sh/gnm90vqx","slide":12,"text":"Active books show reading progress, due dates, renewal controls and a live return countdown.","textPreview":"Active books show reading progress, due dates, renewal controls and a live return countdown.","textChars":92,"textLines":1,"bbox":[72,306,320,160]}
+{"kind":"textbox","id":"sh/3qdsba98","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[333,460,55,30]}
+{"kind":"shape","id":"sh/2p4r2583","slide":12,"bbox":[450,215,370,300]}
+{"kind":"textbox","id":"sh/gvmhcfq1","slide":12,"text":"Reservations","textPreview":"Reservations","textChars":12,"textLines":1,"bbox":[474,239,320,58]}
+{"kind":"textbox","id":"sh/hwvi5k7m","slide":12,"text":"Students see queue position, collection deadlines and can cancel a pending request.","textPreview":"Students see queue position, collection deadlines and can cancel a pending request.","textChars":83,"textLines":1,"bbox":[474,306,320,160]}
+{"kind":"textbox","id":"sh/utkza58v","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[735,460,55,30]}
+{"kind":"shape","id":"sh/fud03apg","slide":12,"bbox":[852,215,370,300]}
+{"kind":"textbox","id":"sh/4jm1gf6x","slide":12,"text":"Outstanding fines","textPreview":"Outstanding fines","textChars":17,"textLines":1,"bbox":[876,239,320,58]}
+{"kind":"textbox","id":"sh/pkvi9k7i","slide":12,"text":"Each charge is tied to the relevant book and shows paid and remaining balances.","textPreview":"Each charge is tied to the relevant book and shows paid and remaining balances.","textChars":79,"textLines":1,"bbox":[876,306,320,160]}
+{"kind":"textbox","id":"sh/2h4zep87","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1137,460,55,30]}
+{"kind":"textbox","id":"sh/3id07upc","slide":12,"text":"Privacy decision","textPreview":"Privacy decision","textChars":16,"textLines":1,"bbox":[50,560,220,32]}
+{"kind":"textbox","id":"sh/cn61kz69","slide":12,"text":"Students see their own membership and circulation records—not the full registered-member list.","textPreview":"Students see their own membership and circulation records—not the full registered-member list.","textChars":94,"textLines":1,"bbox":[275,552,900,55]}
+{"kind":"notes","id":"nt/nr1suw","slide":12,"text":""}
+{"kind":"slide","id":"sl/es1b00","slide":13,"title":"THE KNOWLEDGE HUB","textShapes":7}
+{"kind":"shape","id":"sh/bmxsf6hw","slide":13,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/cn6tobi1","slide":13,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/xofahgzm","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/ypobql07","slide":13,"text":"Responsive design makes the system usable anywhere","textPreview":"Responsive design makes the system usable anywhere","textChars":50,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/krqtsvid","slide":13,"bbox":[65,220,12,12]}
+{"kind":"textbox","id":"sh/lszul0zy","slide":13,"text":"Desktop: full navigation and data-rich workspaces.","textPreview":"Desktop: full navigation and data-rich workspaces.","textChars":50,"textLines":1,"bbox":[93,210,572,46]}
+{"kind":"shape","id":"sh/et4be103","slide":13,"bbox":[65,278,12,12]}
+{"kind":"textbox","id":"sh/fuds7m1o","slide":13,"text":"Tablet: simplified navigation with flexible grids.","textPreview":"Tablet: simplified navigation with flexible grids.","textChars":50,"textLines":1,"bbox":[93,268,572,46]}
+{"kind":"shape","id":"sh/re9gfy5k","slide":13,"bbox":[65,336,12,12]}
+{"kind":"textbox","id":"sh/qd0fmt4z","slide":13,"text":"Phone: native card layouts instead of squeezed tables.","textPreview":"Phone: native card layouts instead of squeezed tables.","textChars":54,"textLines":1,"bbox":[93,326,572,46]}
+{"kind":"shape","id":"sh/dgbyhonq","slide":13,"bbox":[65,394,12,12]}
+{"kind":"textbox","id":"sh/cfixo3m5","slide":13,"text":"Four-action bottom dock keeps common tasks within thumb reach.","textPreview":"Four-action bottom dock keeps common tasks within thumb reach.","textChars":62,"textLines":1,"bbox":[93,384,572,46]}
+{"kind":"image","id":"im/ipkfmp4z","slide":13,"name":"","alt":"mobile.png","bbox":[730,165,470,490]}
+{"kind":"notes","id":"nt/es1b00","slide":13,"text":""}
+{"kind":"slide","id":"sl/b1nbby","slide":14,"title":"THE KNOWLEDGE HUB","textShapes":12}
+{"kind":"shape","id":"sh/2pgf2dob","slide":14,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/pc7yx8n2","slide":14,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/4byh436h","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/repgzi58","slide":14,"text":"The prototype is secure by design—and honest about its limits","textPreview":"The prototype is secure by design—and honest about its limits","textChars":61,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"shape","id":"sh/qdgz6don","slide":14,"bbox":[48,220,370,300]}
+{"kind":"textbox","id":"sh/dgry1sny","slide":14,"text":"Already implemented","textPreview":"Already implemented","textChars":19,"textLines":1,"bbox":[72,244,320,58]}
+{"kind":"textbox","id":"sh/cfyh8n6d","slide":14,"text":"Hashed passwords, JWT authentication, protected staff routes, validation and role-specific navigation.","textPreview":"Hashed passwords, JWT authentication, protected staff routes, validation and role-specific navigation.","textChars":102,"textLines":1,"bbox":[72,311,320,160]}
+{"kind":"textbox","id":"sh/7i5gne5o","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[333,465,55,30]}
+{"kind":"shape","id":"sh/6hwfu9o3","slide":14,"bbox":[450,220,370,300]}
+{"kind":"textbox","id":"sh/07ydcjud","slide":14,"text":"Prototype boundary","textPreview":"Prototype boundary","textChars":18,"textLines":1,"bbox":[474,244,320,58]}
+{"kind":"textbox","id":"sh/l87e54vy","slide":14,"text":"Token 1234 and presentation records are demonstrations; payment and SMS services are not yet live.","textPreview":"Token 1234 and presentation records are demonstrations; payment and SMS services are not yet live.","textChars":98,"textLines":1,"bbox":[474,311,320,160]}
+{"kind":"textbox","id":"sh/y5gva9c7","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[735,465,55,30]}
+{"kind":"shape","id":"sh/z6pc3eds","slide":14,"bbox":[852,220,370,300]}
+{"kind":"textbox","id":"sh/8vyd0ju9","slide":14,"text":"Next iteration","textPreview":"Next iteration","textChars":14,"textLines":1,"bbox":[876,244,320,58]}
+{"kind":"textbox","id":"sh/9wre9ovu","slide":14,"text":"SMS gateway, expiring hashed OTPs, email verification, audit logs, backups and hosted deployment.","textPreview":"SMS gateway, expiring hashed OTPs, email verification, audit logs, backups and hosted deployment.","textChars":97,"textLines":1,"bbox":[876,311,320,160]}
+{"kind":"textbox","id":"sh/mtgve9cj","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1137,465,55,30]}
+{"kind":"notes","id":"nt/b1nbby","slide":14,"text":""}
+{"kind":"slide","id":"sl/hs6sz1","slide":15,"title":"THE KNOWLEDGE HUB","textShapes":19}
+{"kind":"shape","id":"sh/rqlkv2l0","slide":15,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/crul47ml","slide":15,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[48,25,310,25]}
+{"kind":"textbox","id":"sh/dsnmxc36","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1180,26,52,24]}
+{"kind":"textbox","id":"sh/i1c3yx4j","slide":15,"text":"A five-minute demonstration tells the full story","textPreview":"A five-minute demonstration tells the full story","textChars":48,"textLines":1,"bbox":[48,62,1160,70]}
+{"kind":"textbox","id":"sh/32lkr2l4","slide":15,"text":"Use this order during the live presentation.","textPreview":"Use this order during the live presentation.","textChars":44,"textLines":1,"bbox":[50,128,1120,38]}
+{"kind":"textbox","id":"sh/43ul0nm9","slide":15,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[58,180,55,40]}
+{"kind":"textbox","id":"sh/p432ts3u","slide":15,"text":"Sign in","textPreview":"Sign in","textChars":7,"textLines":1,"bbox":[130,180,245,40]}
+{"kind":"textbox","id":"sh/uxs3ud47","slide":15,"text":"Show username/email login and role-based entry.","textPreview":"Show username/email login and role-based entry.","textChars":47,"textLines":1,"bbox":[390,180,800,42]}
+{"kind":"shape","id":"sh/vy1knils","slide":15,"bbox":[58,238,1130,1]}
+{"kind":"textbox","id":"sh/7ipk7y1k","slide":15,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[58,266,55,40]}
+{"kind":"textbox","id":"sh/6hgjyd0z","slide":15,"text":"Open dashboard","textPreview":"Open dashboard","textChars":14,"textLines":1,"bbox":[130,266,245,40]}
+{"kind":"textbox","id":"sh/tk7298jq","slide":15,"text":"Point out the animated banner and live totals.","textPreview":"Point out the animated banner and live totals.","textChars":46,"textLines":1,"bbox":[390,266,800,42]}
+{"kind":"shape","id":"sh/sjy103i5","slide":15,"bbox":[58,324,1130,1]}
+{"kind":"textbox","id":"sh/fm9kbi1w","slide":15,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[58,352,55,40]}
+{"kind":"textbox","id":"sh/ul0j2d0b","slide":15,"text":"Search catalogue","textPreview":"Search catalogue","textChars":16,"textLines":1,"bbox":[130,352,245,40]}
+{"kind":"textbox","id":"sh/h8r2dsjm","slide":15,"text":"Open a title and explain copy status and reservation.","textPreview":"Open a title and explain copy status and reservation.","textChars":53,"textLines":1,"bbox":[390,352,800,42]}
+{"kind":"shape","id":"sh/g7i14nih","slide":15,"bbox":[58,410,1130,1]}
+{"kind":"textbox","id":"sh/vq5kze1c","slide":15,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[58,438,55,40]}
+{"kind":"textbox","id":"sh/apwjq90r","slide":15,"text":"Show student account","textPreview":"Show student account","textChars":20,"textLines":1,"bbox":[130,438,245,40]}
+{"kind":"textbox","id":"sh/y54nyhkf","slide":15,"text":"Demonstrate countdowns, reservations and fines.","textPreview":"Demonstrate countdowns, reservations and fines.","textChars":47,"textLines":1,"bbox":[390,438,800,42]}
+{"kind":"shape","id":"sh/z6d47ml0","slide":15,"bbox":[58,496,1130,1]}
+{"kind":"textbox","id":"sh/07m50r2l","slide":15,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[58,524,55,40]}
+{"kind":"textbox","id":"sh/l8vm9w36","slide":15,"text":"Switch to staff","textPreview":"Switch to staff","textChars":15,"textLines":1,"bbox":[130,524,245,40]}
+{"kind":"textbox","id":"sh/q1knuhkj","slide":15,"text":"Issue or return a book and show totals update.","textPreview":"Issue or return a book and show totals update.","textChars":46,"textLines":1,"bbox":[390,524,800,42]}
+{"kind":"shape","id":"sh/b2t43ml4","slide":15,"bbox":[58,582,1130,1]}
+{"kind":"notes","id":"nt/hs6sz1","slide":15,"text":""}
+{"kind":"slide","id":"sl/mdpyx7","slide":16,"title":"THE KNOWLEDGE HUB","textShapes":4}
+{"kind":"textbox","id":"sh/3mpcrq10","slide":16,"text":"THE KNOWLEDGE HUB","textPreview":"THE KNOWLEDGE HUB","textChars":17,"textLines":1,"bbox":[58,52,380,35]}
+{"kind":"textbox","id":"sh/4nytkb2l","slide":16,"text":"A simpler library\nfor every reader.","textPreview":"A simpler library | for every reader.","textChars":35,"textLines":2,"bbox":[58,190,780,180]}
+{"kind":"textbox","id":"sh/5o7utgj6","slide":16,"text":"The project combines secure access, clear circulation records and a responsive student experience in one practical system.","textPreview":"The project combines secure access, clear circulation records and a responsive student experience in one practical system.","textChars":122,"textLines":1,"bbox":[60,410,760,95]}
+{"kind":"textbox","id":"sh/qpgbmlkr","slide":16,"text":"Questions & live demonstration","textPreview":"Questions & live demonstration","textChars":30,"textLines":1,"bbox":[60,610,520,38]}
+{"kind":"image","id":"im/etgfepg7","slide":16,"name":"","alt":"ghana-library-catalog-v2.png","bbox":[870,120,350,500]}
+{"kind":"notes","id":"nt/mdpyx7","slide":16,"text":""}

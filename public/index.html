@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Knowledge Hub | Smart Library</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/final-theme.css?v=2">
+</head>
+<body>
+
+  <!-- Toast Notification System -->
+  <div id="toast-container"></div>
+
+  <!-- 1. LOGIN OVERLAY SCREEN -->
+  <div id="login-section" class="auth-overlay">
+    <div class="auth-shell">
+      <section class="auth-story">
+        <div class="brand-pill"><i class="fa-solid fa-book-open-reader"></i> The Knowledge Hub</div>
+        <div class="auth-story-copy">
+          <span class="eyebrow">SMART • SIMPLE • GHANAIAN</span>
+          <h2>Knowledge for everyone, managed in one place.</h2>
+          <p>Keep books moving, members supported, and every library visit easy to manage.</p>
+          <div class="story-features">
+            <span><i class="fa-solid fa-bolt"></i> Quick lending</span>
+            <span><i class="fa-solid fa-shield-halved"></i> Secure records</span>
+            <span><i class="fa-solid fa-mobile-screen"></i> Works anywhere</span>
+          </div>
+        </div>
+      </section>
+      <div class="auth-card">
+      <div class="glass-bars" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="auth-header">
+        <div class="auth-mark"><i class="fa-solid fa-book-open"></i></div>
+        <span class="eyebrow">WELCOME BACK</span>
+        <h1>Sign in to your library</h1>
+        <p>Enter your staff account details below.</p>
+      </div>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-username">Email or username</label>
+          <div class="input-with-icon"><i class="fa-regular fa-user"></i><input type="text" id="login-username" required autocomplete="username" placeholder="student@school.edu.gh or username"></div>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <div class="input-with-icon"><i class="fa-solid fa-lock"></i><input type="password" id="login-password" required autocomplete="current-password" placeholder="Your password"></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Sign in <i class="fa-solid fa-arrow-right"></i></button>
+        <button type="button" id="forgot-password-btn" class="forgot-link">Forgot password?</button>
+      </form>
+      <p class="auth-switch">New staff member? <button type="button" id="show-signup-btn">Create an account</button></p>
+      <form id="signup-form" hidden>
+        <div class="form-group"><label for="signup-email">Student academic email</label><div class="input-with-icon"><i class="fa-regular fa-envelope"></i><input type="email" id="signup-email" required autocomplete="email" placeholder="name@school.edu.gh"></div></div>
+        <div class="form-group"><label for="signup-username">Choose a username</label><div class="input-with-icon"><i class="fa-regular fa-user"></i><input type="text" id="signup-username" required minlength="3" autocomplete="username" placeholder="At least 3 characters"></div></div>
+        <div class="form-group"><label for="signup-password">Create a password</label><div class="input-with-icon"><i class="fa-solid fa-key"></i><input type="password" id="signup-password" required minlength="6" autocomplete="new-password" placeholder="At least 6 characters"></div></div>
+        <div class="form-group"><label for="signup-confirm">Confirm password</label><div class="input-with-icon"><i class="fa-solid fa-check"></i><input type="password" id="signup-confirm" required minlength="6" autocomplete="new-password" placeholder="Type it again"></div></div>
+        <button type="submit" class="btn btn-primary btn-block">Create staff account <i class="fa-solid fa-user-plus"></i></button>
+        <p class="auth-switch">Already registered? <button type="button" id="show-login-btn">Back to sign in</button></p>
+      </form>
+      <p class="auth-help"><i class="fa-solid fa-circle-info"></i> Need help? Ask your library administrator.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. MAIN APPLICATION CONTENT -->
+  <div id="app-section" class="app-layout" style="display: none;">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <!-- Custom SVG Logo: Open Book illuminated by Table Stand Lamp -->
+        <svg viewBox="0 0 100 100" class="sidebar-logo-svg" style="width: 28px; height: 28px; display: inline-block; vertical-align: middle;">
+          <!-- Lamp Base -->
+          <path d="M 60 82 L 80 82" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" />
+          <!-- Lamp Arm -->
+          <path d="M 70 82 L 75 50 L 55 35" fill="none" stroke="#60a5fa" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+          <!-- Joints -->
+          <circle cx="70" cy="82" r="2.5" fill="#3b82f6" stroke="#60a5fa" stroke-width="1.5" />
+          <circle cx="75" cy="50" r="2.5" fill="#3b82f6" stroke="#60a5fa" stroke-width="1.5" />
+          <circle cx="55" cy="35" r="2" fill="#3b82f6" stroke="#60a5fa" stroke-width="1.5" />
+          <!-- Lamp Shade -->
+          <path d="M 45 28 L 65 38 L 57 50 L 37 40 Z" fill="#3b82f6" stroke="#60a5fa" stroke-width="2" stroke-linejoin="round" />
+          <!-- Light Cone -->
+          <polygon points="40,43 54,50 48,82 12,82" fill="rgba(253, 224, 71, 0.25)" />
+          <!-- Open Book -->
+          <path d="M 36 82 C 32 78, 20 78, 14 80 L 14 65 C 20 63, 32 63, 36 67 C 40 63, 52 63, 58 65 L 58 80 C 52 78, 40 78, 36 82 Z" fill="rgba(255, 255, 255, 0.15)" stroke="#60a5fa" stroke-width="3" stroke-linejoin="round" />
+          <path d="M 36 67 L 36 82" stroke="#60a5fa" stroke-width="3" />
+        </svg>
+        <span style="font-size: 1.15rem;">The Knowledge Hub</span>
+      </div>
+      
+      <!-- Current User Profile Info -->
+      <div class="user-profile">
+        <button id="user-menu-trigger" class="user-menu-trigger" type="button" aria-expanded="false" aria-haspopup="true">
+          <div class="user-avatar"><img id="user-avatar-img" src="" alt="" hidden></div>
+          <div class="user-info"><h4 id="user-display-name">Username</h4><span id="user-display-role" class="badge">Role</span></div>
+          <i class="fa-solid fa-chevron-down user-menu-chevron"></i>
+        </button>
+        <div id="user-menu-dropdown" class="user-menu-dropdown" hidden>
+          <div class="user-menu-heading"><span>Signed in as</span><strong id="dropdown-user-name">Username</strong></div>
+          <button type="button" id="my-profile-btn" class="user-menu-item"><i class="fa-regular fa-user"></i><span>My Profile</span></button>
+          <button type="button" id="logout-btn" class="user-menu-item danger"><i class="fa-solid fa-arrow-right-from-bracket"></i><span>Sign Out</span></button>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <ul>
+          <li>
+            <a href="#" class="nav-link active" data-view="dashboard" data-mobile-label="Home">
+              <i class="fa-solid fa-compass"></i> Overview
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-view="books" data-mobile-label="Books">
+              <i class="fa-solid fa-layer-group"></i> Collection
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-view="catalogue" data-mobile-label="Explore">
+              <i class="fa-solid fa-book-open-reader"></i> Literature Catalogue
+            </a>
+          </li>
+          <li class="student-only-nav" hidden>
+            <a href="#" class="nav-link" data-view="my-loans" data-mobile-label="My Loans"><i class="fa-solid fa-book-bookmark"></i> My Loans</a>
+          </li>
+          <li class="student-only-nav" hidden>
+            <a href="#" class="nav-link" data-view="reservations" data-mobile-label="Reserved"><i class="fa-regular fa-bookmark"></i> Reservations</a>
+          </li>
+          <li class="student-only-nav" hidden>
+            <a href="#" class="nav-link" data-view="student-fines" data-mobile-label="My Fines"><i class="fa-solid fa-receipt"></i> Outstanding Fines</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-view="members" data-mobile-label="People">
+              <i class="fa-solid fa-address-card"></i> Readers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-view="borrow" data-mobile-label="Loans">
+              <i class="fa-solid fa-arrows-rotate"></i> Circulation
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-view="fines" data-mobile-label="Fines">
+              <i class="fa-solid fa-wallet"></i> Accounts
+            </a>
+          </li>
+          <li id="nav-item-settings" style="display: none;">
+            <a href="#" class="nav-link" data-view="settings" data-mobile-label="Setup">
+              <i class="fa-solid fa-sliders"></i> Administration
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </aside>
+
+    <!-- MAIN PANEL -->
+    <main class="main-panel">
+      <!-- TOP NAVIGATION BAR -->
+      <header class="top-bar">
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open navigation"><i class="fa-solid fa-bars"></i></button>
+        <div class="view-title">
+          <span id="current-view-kicker" class="view-kicker">WORKSPACE</span>
+          <h2 id="current-view-title">Overview</h2>
+          <p id="current-view-subtitle">A quick picture of today’s library activity.</p>
+        </div>
+        <div class="top-bar-right">
+          <div class="date-widget">
+            <i class="fa-regular fa-calendar-days"></i>
+            <span id="current-date-display">June 30, 2026</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- DYNAMIC CONTENT CONTAINER -->
+      <div id="view-container" class="content-body">
+        <!-- Views will be dynamically loaded here by app.js -->
+      </div>
+    </main>
+  </div>
+
+  <!-- --- MODALS --- -->
+
+  <!-- BOOK MODAL (ADD & EDIT) -->
+  <div id="book-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="book-modal-title">Add New Book</h3>
+        <button class="close-modal-btn" onclick="closeModal('book-modal')">&times;</button>
+      </div>
+      <form id="book-form">
+        <input type="hidden" id="book-form-id">
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="book-title">Book Title*</label>
+            <input type="text" id="book-title" required placeholder="e.g. Clean Code">
+          </div>
+          <div class="form-group col-6">
+            <label for="book-author">Author Name*</label>
+            <input type="text" id="book-author" required placeholder="e.g. Robert C. Martin">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="book-isbn">ISBN Number* (Unique)</label>
+            <input type="text" id="book-isbn" required placeholder="e.g. 9780132350884">
+          </div>
+          <div class="form-group col-6">
+            <label for="book-category">Category*</label>
+            <select id="book-category" required>
+              <option value="">Select Category</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Mathematics">Mathematics</option>
+              <option value="Science">Science</option>
+              <option value="Literature">Literature</option>
+              <option value="Fiction">Fiction</option>
+              <option value="History">History</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="book-publisher">Publisher*</label>
+            <input type="text" id="book-publisher" required placeholder="e.g. Prentice Hall">
+          </div>
+          <div class="form-group col-6">
+            <label for="book-year">Year Published*</label>
+            <input type="number" id="book-year" required placeholder="e.g. 2008">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="book-copies">Total Copies in Inventory*</label>
+          <input type="number" id="book-copies" required min="1" placeholder="e.g. 5">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('book-modal')">Cancel</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-save"></i> Save Book</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MEMBER MODAL (ADD & EDIT) -->
+  <div id="member-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="member-modal-title">Register Member</h3>
+        <button class="close-modal-btn" onclick="closeModal('member-modal')">&times;</button>
+      </div>
+      <form id="member-form">
+        <input type="hidden" id="member-form-id">
+        <div class="form-group">
+          <label for="member-code">Member Code / ID Number* (Unique)</label>
+          <input type="text" id="member-code" required placeholder="e.g. STU-2026-0001">
+        </div>
+        <div class="form-group">
+          <label for="member-name">Full Name*</label>
+          <input type="text" id="member-name" required placeholder="e.g. John Doe">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label for="member-email">Email Address* (Unique)</label>
+            <input type="email" id="member-email" required placeholder="e.g. john.doe@email.com">
+          </div>
+          <div class="form-group col-6">
+            <label for="member-phone">Phone Number*</label>
+            <input type="text" id="member-phone" required placeholder="e.g. +233240000000">
+          </div>
+        </div>
+        <div class="form-group" id="member-status-group" style="display: none;">
+          <label for="member-status">Membership Status*</label>
+          <select id="member-status">
+            <option value="active">Active</option>
+            <option value="suspended">Suspended</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('member-modal')">Cancel</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i> Save Member</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ISSUE BOOK MODAL -->
+  <div id="issue-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Issue Book to Member</h3>
+        <button class="close-modal-btn" onclick="closeModal('issue-modal')">&times;</button>
+      </div>
+      <form id="issue-form">
+        <div class="form-group">
+          <label for="issue-book-select">Select Book to Issue*</label>
+          <select id="issue-book-select" required>
+            <option value="">Choose a book...</option>
+            <!-- Loaded dynamically -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="issue-member-select">Select Borrowing Member*</label>
+          <select id="issue-member-select" required>
+            <option value="">Choose a member...</option>
+            <!-- Loaded dynamically -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="issue-days">Borrow Duration (Days)*</label>
+          <input type="number" id="issue-days" value="14" min="1" max="90" required>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModal('issue-modal')">Cancel</button>
+          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-share-from-square"></i> Issue Item</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <div id="account-flow-modal" class="account-flow-modal" hidden>
+    <div class="account-flow-card" role="dialog" aria-modal="true" aria-labelledby="flow-title">
+      <button type="button" id="flow-close-btn" class="flow-close" aria-label="Close">&times;</button>
+      <div class="flow-icon"><i id="flow-icon" class="fa-solid fa-mobile-screen-button"></i></div>
+      <span id="flow-step" class="eyebrow">SECURE YOUR ACCOUNT</span>
+      <h2 id="flow-title">Add your telephone number</h2>
+      <p id="flow-description">We will use this number to verify your account and recover your password.</p>
+      <form id="account-flow-form">
+        <div id="flow-fields"></div>
+        <button id="flow-submit" type="submit" class="btn btn-primary btn-block">Send verification code</button>
+      </form>
+      <p id="demo-token-note" class="demo-token-note" hidden><i class="fa-solid fa-flask"></i> Demo verification code: <strong>1234</strong></p>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/catalogue-details.js"></script>
+  <script src="js/student-pages.js"></script>
+</body>
+</html>
